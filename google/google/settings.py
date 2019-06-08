@@ -64,7 +64,7 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-ITEM_PIPELINES = {  #여기를 설정해줘야 파이프라인이 작동함
+ITEM_PIPELINES = {  #여기를 설정해줘야 파이프라인이 작동함. 뒤에 숫자가 낮을 수록 먼저 작동
    'google.pipelines.GooglePipeline': 300,
 }
 

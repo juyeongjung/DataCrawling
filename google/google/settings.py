@@ -9,6 +9,8 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
+import logging #log들을 저장할 수 있는 라이브러리를 가져옴
+
 BOT_NAME = 'google'
 
 SPIDER_MODULES = ['google.spiders']
@@ -88,3 +90,6 @@ ITEM_PIPELINES = {  #여기를 설정해줘야 파이프라인이 작동함. 뒤
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+LOG_FILE='logfile.log' #로그파일이란 이름으로 저장
+LOG_LEVEL=logging.INFO  #로깅에는 5단계가 있음. 최하위가 DEBUG,...INFO 까지. 레벨위에 것들만 출력

@@ -1,2 +1,2 @@
 # DataCrawling
-# Google, Test는 Scrapy를 이용한 크롤링
+Google, Tutorial은 Scrapy를 이용한 크롤링 프로젝트

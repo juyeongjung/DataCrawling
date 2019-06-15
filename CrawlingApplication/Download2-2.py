@@ -16,7 +16,7 @@ saveFile1=open(savePath1,'wb') # w:write, r:read, a:add, b:binary
 saveFile1.write(f)
 saveFile1.close() #반환하는 작업을 까먹지 말자
 
-with open(savePath2,'wb') as saveFile2: #이렇게 파일을 가져오기를 권장. with 밖을 나가면 자동으로 close()를 호출해줌. 코드도 간결해짐
+with open(savePath2,'wb') as saveFile2: #이렇게 파일을 가져오기를 권장. with 밖을 나가면 자동으로 close()를 호출해줌. 코드도 간결해 짐
     saveFile2.write(f2)
 
 print("다운로드 완료")

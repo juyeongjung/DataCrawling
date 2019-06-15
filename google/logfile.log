@@ -1,12 +1,12 @@
-2019-06-09 16:00:18 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: google)
-2019-06-09 16:00:18 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.9, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.6.8 |Anaconda, Inc.| (default, Feb 21 2019, 18:30:04) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1c  28 May 2019), cryptography 2.7, Platform Windows-10-10.0.17763-SP0
-2019-06-09 16:00:18 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'google', 'LOG_FILE': 'logfile.log', 'LOG_LEVEL': 20, 'NEWSPIDER_MODULE': 'google.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['google.spiders']}
-2019-06-09 16:00:18 [scrapy.extensions.telnet] INFO: Telnet Password: 767845e73e38b0c7
-2019-06-09 16:00:18 [scrapy.middleware] INFO: Enabled extensions:
+2019-06-10 23:17:47 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: google)
+2019-06-10 23:17:47 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.9, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.6.8 |Anaconda, Inc.| (default, Feb 21 2019, 18:30:04) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1c  28 May 2019), cryptography 2.7, Platform Windows-10-10.0.17763-SP0
+2019-06-10 23:17:47 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'google', 'LOG_FILE': 'logfile.log', 'LOG_LEVEL': 20, 'NEWSPIDER_MODULE': 'google.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['google.spiders']}
+2019-06-10 23:17:47 [scrapy.extensions.telnet] INFO: Telnet Password: 90c274ce6ddaadc1
+2019-06-10 23:17:47 [scrapy.middleware] INFO: Enabled extensions:
 ['scrapy.extensions.corestats.CoreStats',
  'scrapy.extensions.telnet.TelnetConsole',
  'scrapy.extensions.logstats.LogStats']
-2019-06-09 16:00:19 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2019-06-10 23:17:48 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
  'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
@@ -19,74 +19,76 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2019-06-09 16:00:19 [scrapy.middleware] INFO: Enabled spider middlewares:
+2019-06-10 23:17:48 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2019-06-09 16:00:19 [scrapy.middleware] INFO: Enabled item pipelines:
+2019-06-10 23:17:48 [scrapy.middleware] INFO: Enabled item pipelines:
 ['google.pipelines.GooglePipeline']
-2019-06-09 16:00:19 [scrapy.core.engine] INFO: Spider opened
-2019-06-09 16:00:19 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2019-06-09 16:00:19 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2019-06-09 16:00:20 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
-{'category': ['교내채용'], 'title': ['[학술서비스팀] 계약직원 모집']}
-2019-06-09 16:00:20 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
-{'category': ['교내채용'], 'title': ['[산학협력단] 청년TLO 육성사업 참가자 모집']}
-2019-06-09 16:00:20 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
-{'category': ['교내채용'], 'title': ['[과학기술대학 교학팀] 계약직원 모집']}
-2019-06-09 16:00:20 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
-{'category': ['교내채용'], 'title': ['[산림과학 전문인력양성 센터] 전임연구인력(Post-doc) 모집']}
-2019-06-09 16:00:20 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
-{'category': ['교내채용'], 'title': ['[산림과학 전문인력양성 센터] 계약직원 모집']}
-2019-06-09 16:00:20 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
-{'category': ['교내채용'], 'title': ['[산학협력단 산학지원팀] 국민대학교산학협력단 계약직원 모집']}
-2019-06-09 16:00:20 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
-{'category': ['교내채용'], 'title': ['[국제교육원 교학팀] 계약직원 모집']}
-2019-06-09 16:00:20 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
-{'category': ['교내채용'], 'title': ['[2019학년도 2학기 전임교원 신규충원] 2차 심사 합격자 발표']}
-2019-06-09 16:00:20 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
-{'category': ['교내채용'], 'title': ['[LINC+사업단] 계약직원 모집 공고']}
-2019-06-09 16:00:20 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
-{'category': ['교내채용'], 'title': ['[현장실습지원센터] 계약직원 모집']}
-2019-06-09 16:00:20 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
-{'category': ['교내채용'], 'title': ['[공동실험기기센터] 계약직원 모집']}
-2019-06-09 16:00:20 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
-{'category': ['교내채용'], 'title': ['[산학협력팀] XR센터 연구원 모집']}
-2019-06-09 16:00:20 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
-{'category': ['교내채용'], 'title': ['[산학협력팀] 계약직원 모집']}
-2019-06-09 16:00:20 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
-{'category': ['교내채용'], 'title': ['[소프트웨어융합대학원 교학팀] 계약직원 모집']}
-2019-06-09 16:00:20 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
-{'category': ['교내채용'], 'title': ['[경영대학 교학팀] 계약직원 모집']}
-2019-06-09 16:00:20 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
-{'category': ['교내채용'], 'title': ['[글로벌창업벤처대학원 교학팀] 계약직원 모집']}
-2019-06-09 16:00:20 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
-{'category': ['교내채용'], 'title': ['[과학기술대학 교학팀] 계약직원 모집 (화학 전공자 우대)']}
-2019-06-09 16:00:20 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
+2019-06-10 23:17:48 [scrapy.core.engine] INFO: Spider opened
+2019-06-10 23:17:48 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-06-10 23:17:48 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-06-10 23:17:49 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
 {'category': ['교내채용'], 'title': ['[비서실] 계약직원 모집']}
-2019-06-09 16:00:20 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
+2019-06-10 23:17:49 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
 {'category': ['교내채용'], 'title': ['[경력개발지원단(대학일자리센터 사업)] 계약직원 모집']}
-2019-06-09 16:00:20 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
+2019-06-10 23:17:49 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
 {'category': ['교내채용'], 'title': ['[병무지원팀(대학직장예비군연대)] 계약직원 모집']}
-2019-06-09 16:00:20 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
+2019-06-10 23:17:49 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
+{'category': ['교내채용'], 'title': ['[현장실습지원센터] 계약직원 모집']}
+2019-06-10 23:17:49 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
+{'category': ['교내채용'], 'title': ['[공동실험기기센터] 계약직원 모집']}
+2019-06-10 23:17:49 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
+{'category': ['교내채용'], 'title': ['[산학협력팀] XR센터 연구원 모집']}
+2019-06-10 23:17:49 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
+{'category': ['교내채용'], 'title': ['[산학협력팀] 계약직원 모집']}
+2019-06-10 23:17:49 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
+{'category': ['교내채용'], 'title': ['[학술서비스팀] 계약직원 모집']}
+2019-06-10 23:17:49 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
+{'category': ['교내채용'], 'title': ['[산학협력단] 청년TLO 육성사업 참가자 모집']}
+2019-06-10 23:17:49 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
 {'category': ['교내채용'], 'title': ['[글로벌인문지역대학 교학팀] 계약직원 모집']}
-2019-06-09 16:00:20 [scrapy.core.engine] INFO: Closing spider (finished)
-2019-06-09 16:00:20 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+2019-06-10 23:17:49 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
+{'category': ['교내채용'], 'title': ['[경영대학원 교학팀] 계약직원 모집']}
+2019-06-10 23:17:49 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
+{'category': ['교내채용'], 'title': ['[소프트웨어융합대학원 교학팀] 계약직원 모집']}
+2019-06-10 23:17:49 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
+{'category': ['교내채용'], 'title': ['[경영대학 교학팀] 계약직원 모집']}
+2019-06-10 23:17:49 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
+{'category': ['교내채용'], 'title': ['[글로벌창업벤처대학원 교학팀] 계약직원 모집']}
+2019-06-10 23:17:49 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
+{'category': ['교내채용'], 'title': ['[과학기술대학 교학팀] 계약직원 모집 (화학 전공자 우대)']}
+2019-06-10 23:17:49 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
+{'category': ['교내채용'], 'title': ['[과학기술대학 교학팀] 계약직원 모집']}
+2019-06-10 23:17:49 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
+{'category': ['교내채용'], 'title': ['[산림과학 전문인력양성 센터] 전임연구인력(Post-doc) 모집']}
+2019-06-10 23:17:49 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
+{'category': ['교내채용'], 'title': ['[산림과학 전문인력양성 센터] 계약직원 모집']}
+2019-06-10 23:17:49 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
+{'category': ['교내채용'], 'title': ['[산학협력단 산학지원팀] 국민대학교산학협력단 계약직원 모집']}
+2019-06-10 23:17:49 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
+{'category': ['교내채용'], 'title': ['[국제교육원 교학팀] 계약직원 모집']}
+2019-06-10 23:17:49 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
+{'category': ['교내채용'], 'title': ['[2019학년도 2학기 전임교원 신규충원] 2차 심사 합격자 발표']}
+2019-06-10 23:17:49 [scrapy.core.scraper] WARNING: Dropped: Contains forbidden word: 교내채용
+{'category': ['교내채용'], 'title': ['[LINC+사업단] 계약직원 모집 공고']}
+2019-06-10 23:17:49 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-06-10 23:17:49 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
 {'downloader/request_bytes': 1456,
  'downloader/request_count': 6,
  'downloader/request_method_count/GET': 6,
- 'downloader/response_bytes': 345213,
+ 'downloader/response_bytes': 345918,
  'downloader/response_count': 6,
  'downloader/response_status_count/200': 6,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2019, 6, 9, 7, 0, 20, 239536),
- 'item_dropped_count': 21,
- 'item_dropped_reasons_count/DropItem': 21,
- 'item_scraped_count': 43,
+ 'finish_time': datetime.datetime(2019, 6, 10, 14, 17, 49, 760115),
+ 'item_dropped_count': 22,
+ 'item_dropped_reasons_count/DropItem': 22,
+ 'item_scraped_count': 46,
  'log_count/INFO': 9,
- 'log_count/WARNING': 21,
+ 'log_count/WARNING': 22,
  'response_received_count': 6,
  'robotstxt/request_count': 1,
  'robotstxt/response_count': 1,
@@ -95,5 +97,5 @@
  'scheduler/dequeued/memory': 5,
  'scheduler/enqueued': 5,
  'scheduler/enqueued/memory': 5,
- 'start_time': datetime.datetime(2019, 6, 9, 7, 0, 19, 351806)}
-2019-06-09 16:00:20 [scrapy.core.engine] INFO: Spider closed (finished)
+ 'start_time': datetime.datetime(2019, 6, 10, 14, 17, 48, 833592)}
+2019-06-10 23:17:49 [scrapy.core.engine] INFO: Spider closed (finished)

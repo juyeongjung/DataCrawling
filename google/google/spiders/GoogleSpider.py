@@ -31,7 +31,7 @@ class GoogleSpider(scrapy.Spider):
             #
             # dateTmp = datetime.strptime(date_str, "%y/%m/%d %H:%M:%S")
 
-            time.sleep(1) #delay를 주어 서버의 과부하를 막는다.
+            #time.sleep(1) #delay를 주어 서버의 과부하를 막는다.
             yield item
 
         # // *[ @ id = "content_body"] /section / div[1] / table / tbody / tr[1] / td[1] 이게 xpath
